@@ -22,7 +22,18 @@ export default function Home() {
     let sum = 0;
 
     for (let char of lowerCaseStr) {
-      if (lowerCaseStr.length == 7) {
+      if (
+        lowerCaseStr == "thala" ||
+        lowerCaseStr == "dhoni" ||
+        lowerCaseStr == "RamPandey" ||
+        lowerCaseStr == "xevo" ||
+        lowerCaseStr == "tushar" ||
+        lowerCaseStr == "jindal" ||
+        lowerCaseStr == "rohit" ||
+        lowerCaseStr == "kamlesh"
+      ) {
+        return 7;
+      } else if (lowerCaseStr.length == 7) {
         return 7;
       } else if (!isNaN(parseInt(char))) {
         const value = parseInt(char) - "0";
