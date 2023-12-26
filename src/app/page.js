@@ -123,6 +123,19 @@ export default function Home() {
           {/* Display breakdown if the sum is not 7 */}
         </div>
       )}
+      <footer className="mt-8 text-center">
+        <p className="text-sm">
+          Source code available on{" "}
+          <a
+            href="https://github.com/mrtechnostart/ThalaCalculator"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-500 hover:underline"
+          >
+            GitHub
+          </a>
+        </p>
+      </footer>
     </div>
   );
 }
